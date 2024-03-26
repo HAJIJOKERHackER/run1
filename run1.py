@@ -947,14 +947,6 @@ def main_apv():
             menu()
             pass 
         else: 
-            print('\033[1;92m Now it will work well in all countries')
-            print('\033[1;92m-----------------------------------------------------\033[1;97m')
-            print('\033[1;92m[\033[1;92m•\033[1;92m]\033[1;92m Notes : Nix Tools Can buy in all countries!')
-            print('\033[1;92m-----------------------------------------------------\033[1;97m')
-            print('\033[1;92m [\033[1;92m1\033[1;92m]\033[1;92m 8$ \033[1;92mApproval For 1 month')
-            print(' \033[1;92m[\033[1;92m2\033[1;92m]\033[1;92m 6$ \033[1;92mApproval For 15 days')
-            print(' \033[1;92m[\033[1;92m3\033[1;92m]\033[1;92m 3$ \033[1;92mApproval For 7 days \033[1;37m')
-            print('\033[1;92m-----------------------------------------------------')
             Picchi = input(' Select Buy Option : ')
             os.system("clear")
             print(logo)

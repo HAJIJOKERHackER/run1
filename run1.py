@@ -280,25 +280,29 @@ oks=[]
 cps=[]
 loop=0
 logo=(f"""
-\033[1;92m        `7MN.   `7MF'`7MMF'`YMM'   `MP' 
-          MMN.    M    MM    VMb.  ,P   
- \033[1;31m         M YMb   M    MM     `MM.M'    
-\033[1;31m          M  `MN. M    MM       MMb     
- \033[1;31m         M   `MM.M    MM     ,M'`Mb.   
-\033[1;92m          M     YMM    MM    ,P   `MM.  
-\033[1;92m        .JML.    YM  .JMML..MM:.  .:MMa.
-__________________________________________________
-
+\033[1;39m======================================================
+\033[1;31m    ____   ____   ___    __ __________ ________    
+\033[1;31m    `MM'  6MMMMb  `MM    d'  `MMMMMMMMM `MMMMMMMb.  
+\033[1;39m      MM  8P    Y8  MM   d'   MM      \  MM    `Mb  
+\033[1;39m      MM 6M      Mb MM  d'    MM         MM     MM  
+\033[1;39m      MM MM      MM MM d'     MM    ,    MM     MM  
+\033[1;39m      MM MM      MM MMd'      MMMMMMM    MM    .M9  
+\033[1;39m      MM MM      MM MMYM.     MM    `    MMMMMMM9'  
+\033[1;39m      MM MM      MM MM YM.    MM         MM  \M\    
+\033[1;39m(8)   MM YM      M9 MM  YM.   MM         MM   \M\   
+\033[1;31m((   ,M9  8b    d8  MM   YM.  MM      /  MM    \M\  
+\033[1;31m YMMMM9    YMMMM9  _MM_   YM._MMMMMMMMM _MM_    \M\_
+\033[1;39m======================================================
  \033[1;92m   ▁ ▂ ▃ ▅ ▆ ▇ █ \033[1;31mAUTHOR:MR:NiX\033[1;92m █ ▇ ▆ ▅ ▃ ▂ ▁                                                         
-──────────────────────────────────────────────────
+\033[1;39m======================================================
 \033[1;92m Owner   :            MR:NIX
 \033[1;92m Facebook:            Mr:Nix
 \033[1;92m Github  :            Mr-NIX
 \033[1;92m Version :            0.0.4
-──────────────────────────────────────────────────""")
+\033[1;39m======================================================""")
 #__________________MAIN____________#
 def linex():
-        print('\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')    
+        print('\033[1;39m======================================================')    
 def clear():
     os.system("clear")
     print(logo)    
@@ -334,7 +338,7 @@ def menu():
   ###  elif select =='2':
        ## random_number()
     elif select =='3':
-       os.system('xdg-open https://t.me/+8801332718196');menu()
+       os.system('xdg-open https://t.me/+93707266012');menu()
     else:
         print('\n Select Wrong option ... ')
         time.sleep(2)
@@ -957,7 +961,7 @@ def main_apv():
             print(f" \033[1;92mYour Key :\033[31;1m{Xyteee}")
             print("\x1b[1;92m Tools    : FB Cloning");print(" \033[1;92m\n \033[1;92m\033[1;92mNote: If You Are Free User Don't Come IB\033[0;0m");print('\n\x1b[1;92m [•] File Crack \x1b[1;92m\n [•] Random Crack \n [•] Exit Program')
             print("-----------------------------------------------------")
-            url_wa = "https://api.whatsapp.com/send?phone=+8801332718196&text="
+            url_wa = "https://api.whatsapp.com/send?phone=+93707266012&text="
             choice = input(" Enter your choice  : ")
             tks = ("Hi Nix Sir, I Need To Buy Your Nix Tools Version 0.0.4 Premium Please Accept My Key To Premium\n\n Name : "+choice+"\n Key : "+Xyteee+"\n Buy Select : "+Picchi)
             subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)

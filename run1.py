@@ -933,13 +933,13 @@ def main_apv():
     os.system("clear")
     print(logo)
     uuid = str(os.geteuid())
-    Xyteee=('Nix1x6b7b5c%s85b8n9nfdi%s'%(uuid,uuid))
+    Xyteee=('%s'%(uuid,uuid))
     print(logo)
     os.system("clear");print(logo)
     print(f" Your Key : \x1b[1;31m"+Xyteee)
     print("\x1b[1;92m--------------------------------------------------")
     try:
-        system = requests.get("https://github.com/HAJIJOKERHackER/Approve/edit/main/Approve.txt").text 
+        system = requests.get("").text 
         if Xyteee in system:
             print()
             msg = str(os.geteuid()) 
@@ -950,7 +950,7 @@ def main_apv():
             Picchi = input(' Select Buy Option : ')
             os.system("clear")
             print(logo)
-            print(f" \033[1;92mYour Key :\033[31;1m{Xyteee}")
+            print(f" \033[1;92mYour Key :\033[31;1m{}")
             print("\x1b[1;92m Tools    : FB Cloning");print(" \033[1;92m\n \033[1;92m\033[1;92mNote: If You Are Free User Don't Come IB\033[0;0m");print('\n\x1b[1;92m [•] File Crack \x1b[1;92m\n [•] Random Crack \n [•] Exit Program')
             print("-----------------------------------------------------")
             url_wa = "https://api.whatsapp.com/send?phone=+93707266012&text="

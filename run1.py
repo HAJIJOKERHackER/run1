@@ -937,7 +937,7 @@ def main_apv():
     print(f" Your Key : \x1b[1;31m"+Xyteee)
     print("\033[1;39m====================================")
     try:
-        system = requests.get("https://github.com/Mr-𝐉𝐎𝐊𝐄𝐑8/Paid/blob/main/Approve.txt").text 
+        system = requests.get("https://github.com/HAJIJOKERHackER/Approve/blob/main/Approve.txt").text 
         if Xyteee in system:
             print()
             msg = str(os.geteuid()) 
